@@ -1,0 +1,30 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 260px;
+    height: 120px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.contactsContainer {
+    max-width: 1280px;
+}
+
+.deleteButton {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.deleteButton:hover {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
